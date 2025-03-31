@@ -1,0 +1,7 @@
+#Folders
+.venv
+
+#Files
+__pycache__
+*.DS_Store
+poetry.lock
