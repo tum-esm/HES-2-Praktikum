@@ -123,8 +123,7 @@ def plot_columns(df: pl.DataFrame,
 
 def plot_column_difference(df: pl.DataFrame,
                            datetime_col: str,
-                           col1: str,
-                           col2: str,
+                           cols: list[str],
                            sample_size: int = 10000,
                            filter_value: int = 1000) -> None:
     """
@@ -138,6 +137,8 @@ def plot_column_difference(df: pl.DataFrame,
     - sample_size (int): Number of points to sample for plotting (default=10,000).
     filter_value (int): Maximum value to filter out (default=1000).
     """
+    col1, col2 = cols
+
     # Ensure columns exist
     for col in [datetime_col, col1, col2]:
         if col not in df.columns:
