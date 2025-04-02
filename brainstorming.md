@@ -31,7 +31,14 @@
 - RMSE vs Standartabweichung
 - Scatter Plot mit T, p, AH
 
-## (3) Rolle von Sensitivität
+
+## (4) Zeit: Aggregation und Änderungen,
+
+- Aggrgation auf 10min, 1h
+- Veränderung Kalibrierung über Zeit
+- Veränderung Sensitivität über Zeit
+
+## (5) Bonus: Rolle von Sensitivität
 
 - Studenten selbst probieren lassen welcher Parameter an welcher Stelle schlecht performt?
 - Beispiel Korrektur mit stabiler Temperatur
@@ -40,17 +47,4 @@
 - Erlärung des von Sensorsensitivität
 - Erklärung von Änderung der Sensitivität über Zeit
 
-## (5) Zeit: Aggregation und Änderungen,
 
-- Aggrgation auf 10min, 1h
-- Veränderung Kalibrierung über Zeit
-- Veränderung Sensitivität über Zeit
-
-## (6) Wenn alles zusammen kommt
-
-- Pipeline
-- Scatter Plot
-
-## (7) Despiking: Sliding Windows (Zusatz)
-
-- Hampel Filter
