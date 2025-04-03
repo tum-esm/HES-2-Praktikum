@@ -9,7 +9,7 @@ In diesem Praktikum arbeitet ihr mit realen Messdaten, die auf dem Dach des Geb√
 
 ## Lernziele
 
-Verarbeitung von In-situ-$CO_2$-Sensordaten:
+Verarbeitung von in-situ-$CO_2$-Sensordaten:
 
 - Kalibrationskorrektur (**Calibration Correction**)
 - Zeitliche Aggregation und Qualit√§tsmetriken (**Time Aggregation & Performance Metrics**)
