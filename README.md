@@ -2,27 +2,29 @@
 
 ## Messstation TUM N5 Dach
 
-Ihr arbeitet mit echten Daten, die auf dem Dach des N5 Gebäudes an der TUM gemessen wurden.
+In diesem Praktikum arbeitet ihr mit realen Messdaten, die auf dem Dach des Gebäudes N5 an der Technischen Universität München aufgenommen wurden. Die verwendeten Sensoren befinden sich in wettergeschützten und temperaturstabilisierten Außenboxen. Dabei wird Luft über einen Schlauch von einem externen Lufteinlass kontinuierlich in das Messsystem gepumpt.
 
 <img src="pictures/systems.jpeg" alt="Systems" width="300" height="200">
 <img src="pictures/air_intakes.jpeg" alt="Systems" width="300" height="200">
 
 ## Lernziele
 
-Postprocessing von In-Situ Sensordaten: 
+Verarbeitung von In-situ-$CO_2$-Sensordaten:
 
-- Calibration Correction, 
-- Time Aggregation,
-- Performance Metrics
-- Sensor Sensitivität
-- Dilution Correction 
+- Kalibrationskorrektur (**Calibration Correction**)
+- Zeitliche Aggregation und Qualitätsmetriken (**Time Aggregation & Performance Metrics**)
+- Sensitivitätsanalyse der $CO_2$-Sensoren (**Sensor Sensitivity**)
+- Korrektur der Messwerte von feuchter auf trockene Luft (**Dilution Correction**)
 
 ## Vorbereitung zumn Praktikum
 
-1. Schaue die zwei verlinkten Videos, um das [Ideal Gas Law](https://youtu.be/BxUS1K7xu30?si=f3rDpXa9sT9PRdz9) und den [Partialdruck](https://youtu.be/JbqtqCunYzA?si=UgNx84xJpQUcYKGu) grob zu verstehen. In beiden Videos können deutsche Untertitel aktiviert werden, falls notwendig.
+1.	Grundlagen verstehen
 
-2. Falls du deinen eigenen Laptop nutzen willst, klone dir das Repository und installiere die virtuelle Umgebung und die Python Libraries vorab.
+Bitte schaue dir zur Vorbereitung die beiden verlinkten Videos über das ideale [Ideal Gas Law](https://youtu.be/BxUS1K7xu30?si=f3rDpXa9sT9PRdz9) sowie den [Partialdruck](https://youtu.be/JbqtqCunYzA?si=UgNx84xJpQUcYKGu) an, um die theoretischen Grundlagen zu vertiefen. Bei Bedarf können in beiden Videos deutsche Untertitel aktiviert werden.
 
+2.	Technische Vorbereitung (optional)
+
+Falls du mit deinem eigenen Laptop arbeiten möchtest, klone bitte im Vorfeld das bereitgestellte Repository, richte die virtuelle Python-Umgebung ein und installiere die erforderlichen Libraries.
 
 ### **Prerequisites**
 
