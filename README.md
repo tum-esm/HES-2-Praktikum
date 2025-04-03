@@ -26,13 +26,13 @@ Bitte schaue dir zur Vorbereitung die beiden verlinkten Videos über das ideale 
 
 Falls du mit deinem eigenen Laptop arbeiten möchtest, klone bitte im Vorfeld das bereitgestellte Repository, richte die virtuelle Python-Umgebung ein und installiere die erforderlichen Libraries.
 
-### **Prerequisites**
+#### **Voraussetzungen**
 
-- [Install VS Code](https://code.visualstudio.com/Download) + [Extension für Jupyter](https://www.youtube.com/watch?v=suAkMeWJ1yE)
+- [Installiere VS Code](https://code.visualstudio.com/Download) + [Extension für Jupyter](https://www.youtube.com/watch?v=suAkMeWJ1yE)
 - Python **3.13 or later**
-- Poetry installed (`pip install poetry`)
+- Poetry (`pip install poetry`)
 
-### **Set up the virtual environment and install dependencies**
+#### **Einrichtung Virtuelle Umgebung + Installation Libraries**
 
 ```bash
 python3.13 -m venv .venv  # Create virtual environment
