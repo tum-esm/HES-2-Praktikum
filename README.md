@@ -20,7 +20,7 @@ Verarbeitung von in-situ $CO_2$-Sensordaten:
 
 1.	Grundlagen verstehen
 
-Bitte schaue dir zur Vorbereitung die beiden verlinkten Videos über das ideale [Ideal Gas Law](https://youtu.be/BxUS1K7xu30?si=f3rDpXa9sT9PRdz9) sowie den [Partialdruck](https://youtu.be/JbqtqCunYzA?si=UgNx84xJpQUcYKGu) an, um die theoretischen Grundlagen zu vertiefen. Bei Bedarf können in beiden Videos deutsche Untertitel aktiviert werden.
+Bitte schaue dir zur Vorbereitung die beiden verlinkten Videos über das [Ideal Gas Law](https://youtu.be/BxUS1K7xu30?si=f3rDpXa9sT9PRdz9) sowie den [Partialdruck](https://youtu.be/JbqtqCunYzA?si=UgNx84xJpQUcYKGu) an, um die theoretischen Grundlagen zu vertiefen. Bei Bedarf können in beiden Videos deutsche Untertitel aktiviert werden.
 
 2.	Technische Vorbereitung (optional)
 
