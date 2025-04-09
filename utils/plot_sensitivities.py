@@ -1,7 +1,6 @@
 import polars as pl
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import r2_score
 import numpy as np
 
 
@@ -37,6 +36,7 @@ def plot_scatter_with_trendline(df, x_col_name, y_col_name="diff", max_col=5, ma
             
             # Plot trendline
             ax.plot(x, y_pred, color='red', label="Linear Regression")
+            ax.plot(x, np.zeros_like(x), color='black', linestyle='--', label='Baseline')
         
         ax.set_title(f"System: {int(system_id)}")
         ax.set_xlabel(x_title)
