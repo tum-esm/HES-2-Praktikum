@@ -5,7 +5,8 @@ from sklearn.metrics import r2_score
 import numpy as np
 
 
-def plot_scatter_with_trendline(df, x_col_name, y_col_name="diff", max_col=5, max_row=4, x_title="x_name", y_title="System - Reference (ppm)", title_text="title_name"):
+def plot_scatter_with_trendline(df, x_col_name, y_col_name="diff", max_col=5, max_row=4,
+                                x_title="x_name", y_title="System - Reference (ppm)", title_text="title_name"):
     system_ids = df.select("system_id").unique().to_series().sort().to_list()
     num_systems = len(system_ids)
     
@@ -33,10 +34,9 @@ def plot_scatter_with_trendline(df, x_col_name, y_col_name="diff", max_col=5, ma
             model = LinearRegression()
             model.fit(x, y)
             y_pred = model.predict(x)
-            r2 = r2_score(y, y_pred)
             
             # Plot trendline
-            ax.plot(x, y_pred, color='red', label=f"Trendline (R²={r2:.2f})")
+            ax.plot(x, y_pred, color='red', label="Linear Regression")
         
         ax.set_title(f"System: {int(system_id)}")
         ax.set_xlabel(x_title)
