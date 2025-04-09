@@ -14,7 +14,7 @@ Verarbeitung von in-situ $CO_2$-Sensordaten:
 - Kalibrationskorrektur (**Calibration Correction**)
 - Zeitliche Aggregation und Qualitätsmetriken (**Time Aggregation & Performance Metrics**)
 - Sensitivitätsanalyse der $CO_2$-Sensoren (**Sensor Sensitivity**)
-- Korrektur der Messwerte von feuchter auf trockene Luft (**Dilution Correction**)
+- (Bonus Notebook) Korrektur der Messwerte von feuchter auf trockene Luft (**Dilution Correction**)
 
 ## Vorbereitung zumn Praktikum
 
