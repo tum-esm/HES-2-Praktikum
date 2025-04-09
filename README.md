@@ -31,7 +31,7 @@ Falls du mit deinem eigenen Laptop arbeiten möchtest, klone bitte im Vorfeld da
 - [Installiere VS Code](https://code.visualstudio.com/Download) + [Extension für Jupyter](https://www.youtube.com/watch?v=suAkMeWJ1yE)
 - Python **3.13 or later**
 - Poetry (`pip install poetry`)
-- Deaktiviere Github Co-Pilot und weitere automatischen Vervollständigung
+- Deaktiviere Github Co-Pilot und weitere Tools mit automatischer Code Vervollständigung
 
 #### **Einrichtung Virtuelle Umgebung + Installation Libraries**
 
