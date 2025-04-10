@@ -35,8 +35,19 @@ Falls du mit deinem eigenen Laptop arbeiten möchtest, klone bitte im Vorfeld da
 
 #### **Einrichtung Virtuelle Umgebung + Installation Libraries**
 
+MacOS/Linux:
+
 ```bash
 python3.13 -m venv .venv  # Create virtual environment
 source .venv/bin/activate  # Activate it
+poetry install  # Install dependencies
+```
+
+Windows:
+
+```bash
+py -3.13 -m venv .venv  # Create virtual environment
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process  # Allow script execution
+.\.venv\Scripts\Activate.ps1  # Activate it
 poetry install  # Install dependencies
 ```
