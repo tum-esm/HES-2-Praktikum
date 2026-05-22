@@ -54,4 +54,4 @@ poetry install  # Install dependencies
 
 ## Weiterführende Informationen (freiwillig)
 
-Die Sensorsystem und Daten mit welchen ihr arbeitet sind Teil eines IoT Sensornetzwerkes, dass seit mehreren Jahren in München CO2 misst. [Hier](https://amt.copernicus.org/articles/19/745/2026/) findet ihr die Publikation mit Beschreibung der Hardware, Software, Kalibrierung, Datenverarbeitung und Messauswertung. 
+Das Sensorsystem und die Daten, mit denen ihr arbeitet sind Teil eines IoT-Sensornetzwerkes, das seit mehreren Jahren in München CO2 misst. [Hier](https://amt.copernicus.org/articles/19/745/2026/) findet ihr die Publikation mit Beschreibung der Hardware, Software, Kalibrierung, Datenverarbeitung und Messauswertung. 
